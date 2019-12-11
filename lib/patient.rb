@@ -16,7 +16,7 @@ class Patient
   end
 
   def appointments
-    Appointments.all
+    Appointments.all.select {|appt_obj|}
   end
 
 end
