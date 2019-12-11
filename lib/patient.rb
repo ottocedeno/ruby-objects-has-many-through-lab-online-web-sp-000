@@ -5,6 +5,10 @@ class Patient
     @name = name
   end
 
+  def save
+
+  end
+
   def new_appointment(doctor, date)
     Appointment.new(date, self, doctor)
   end
