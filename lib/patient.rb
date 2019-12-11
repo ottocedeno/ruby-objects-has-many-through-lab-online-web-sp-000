@@ -23,4 +23,8 @@ class Patient
     Appointment.all.select {|appt_obj| appt_obj.patient == self}
   end
 
+  def doctors
+
+  end
+
 end
