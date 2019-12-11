@@ -24,7 +24,7 @@ class Patient
   end
 
   def doctors
-    appointments
+    appointments.collect {|appt_obj}
   end
 
 end
