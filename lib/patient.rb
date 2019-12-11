@@ -6,7 +6,7 @@ class Patient
   end
 
   def save
-
+    @@all << self
   end
 
   def new_appointment(doctor, date)
